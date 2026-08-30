@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>J-Lab</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <header class="header">
+            <h1>J-Lab</h1>
+            <p>Your voice. Your music. Your moment.</p>
+        </header>
+
+
+        <section class="upload-section">
+
+            <div class="upload-box">
+
+                <div class="upload-icon">
+
+                </div>
+
+                <h2>Select a Song</h2>
+
+                <p>
+                    Choose an audio file to remove the vocals.
+                </p>
+
+                <button id="chooseButton" class="primary-button">
+                    Choose Song
+                </button>
+
+                <input
+                    type="file"
+                    id="audioInput"
+                    accept=".mp3,.wav,.flac,.m4a"
+                    hidden
+                >
+
+            </div>
+
+
+            <div id="selectedSong" class="selected-song hidden">
+
+                <span class="music-icon"></span>
+
+                <div>
+                    <p class="song-name" id="songName">
+                        Song Name
+                    </p>
+
+                    <p class="song-status">
+                        Ready to process
+                    </p>
+                </div>
+
+            </div>
+
+
+            <button
+                id="removeButton"
+                class="remove-button hidden"
+            >
+                Remove Vocals
+            </button>
+
+        </section>
+
+
+        <section id="statusSection" class="status hidden">
+
+    <div class="status-header">
+        <p id="statusText">
+            Removing vocals...
+        </p>
+
+        <span id="statusPercent">0%</span>
+    </div>
+
+    <div class="progress-bar">
+        <div id="progressFill"></div>
+    </div>
+
+</section>
+
+
+        <section id="resultSection" class="result hidden">
+
+            <div class="success-icon">
+                ✓
+            </div>
+
+            <h2>Done!</h2>
+
+            <p>
+                Your instrumental is ready.
+            </p>
+
+            <button id="downloadButton" class="primary-button">
+                Download Instrumental
+            </button>
+
+        </section>
+
+
+        <footer>
+            <p>J-Lab - One Voice, Endless Possibilities</p>
+        </footer>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

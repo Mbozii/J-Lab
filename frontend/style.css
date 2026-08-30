@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #f7f3ff;
+    color: #292233;
+    min-height: 100vh;
+}
+
+.app {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 20px 30px;
+}
+
+/* Header */
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 44px;
+    color: #8b6ccf;
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #81788f;
+    font-size: 16px;
+}
+
+
+/* Upload Box */
+
+.upload-box {
+    background: white;
+    border: 2px dashed #d9ccef;
+    border-radius: 24px;
+    padding: 55px 25px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(139, 108, 207, 0.08);
+}
+
+.upload-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.upload-box h2 {
+    color: #342b40;
+    margin-bottom: 10px;
+}
+
+.upload-box p {
+    color: #81788f;
+    margin-bottom: 25px;
+}
+
+
+/* Buttons */
+
+button {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 14px;
+    padding: 14px 24px;
+    transition: 0.2s ease;
+}
+
+.primary-button {
+    background: #9b7bd8;
+    color: white;
+}
+
+.primary-button:hover {
+    background: #8968c9;
+    transform: translateY(-1px);
+}
+
+.remove-button {
+    width: 100%;
+    margin-top: 20px;
+    background: #9b7bd8;
+    color: white;
+}
+
+.remove-button:hover {
+    background: #8968c9;
+}
+
+
+/* Selected Song */
+
+.selected-song {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    background: white;
+    border: 1px solid #eadff8;
+    border-radius: 18px;
+
+    padding: 18px;
+    margin-top: 20px;
+
+    box-shadow: 0 8px 25px rgba(139, 108, 207, 0.07);
+}
+
+.music-icon {
+    font-size: 28px;
+}
+
+.song-name {
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #342b40;
+}
+
+.song-status {
+    color: #81788f;
+    font-size: 14px;
+}
+
+
+/* Processing Status */
+
+/* Processing Status */
+
+.status {
+    background: white;
+    border: 1px solid #eadff8;
+    border-radius: 18px;
+    padding: 22px;
+    margin-top: 20px;
+
+    box-shadow: 0 8px 25px rgba(139, 108, 207, 0.07);
+}
+
+.status-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 12px;
+}
+
+.status-header p {
+    color: #342b40;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#statusPercent {
+    color: #9b7bd8;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+
+    background: #eee8f8;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#progressFill {
+    width: 0%;
+    height: 100%;
+
+    background: #9b7bd8;
+    border-radius: 10px;
+
+    transition: width 0.3s ease;
+}
+
+
+/* Result */
+
+.result {
+    background: white;
+    border: 1px solid #eadff8;
+    border-radius: 20px;
+
+    padding: 30px;
+    text-align: center;
+
+    margin-top: 20px;
+
+    box-shadow: 0 8px 25px rgba(139, 108, 207, 0.07);
+}
+
+.success-icon {
+    font-size: 40px;
+    color: #9978da;
+    margin-bottom: 10px;
+}
+
+.result h2 {
+    color: #342b40;
+}
+
+.result p {
+    color: #81788f;
+    margin: 10px 0 25px;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #a59cab;
+    font-size: 13px;
+}
+
+
+/* Utility */
+
+.hidden {
+    display: none;
+}
+
+
+/* Mobile */
+
+@media (max-width: 500px) {
+
+    .app {
+        padding: 35px 16px 25px;
+    }
+
+    .header h1 {
+        font-size: 38px;
+    }
+
+    .upload-box {
+        padding: 45px 20px;
+    }
+}
