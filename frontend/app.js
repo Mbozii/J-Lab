@@ -16,7 +16,7 @@ const downloadButton = document.getElementById("downloadButton");
 
 
 // API address
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://complete-readily-guestbook-managers.trycloudflare.com";
 
 
 // Store selected file
