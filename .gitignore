@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Audio uploads
+uploads/
+
+# Demucs output
+separated/
+seperated/
+
+# Local audio files
+*.mp3
+*.wav
+*.m4a
+*.flac
+
+# Python cache
+.pytest_cache/
