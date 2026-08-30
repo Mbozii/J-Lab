@@ -209,3 +209,15 @@ async function checkStatus(jobId) {
         removeButton.disabled = false;
     }
 }
+
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js")
+            .then(() => {
+                console.log("J-Lab service worker registered");
+            })
+            .catch((error) => {
+                console.error("Service worker registration failed:", error);
+            });
+    });
+}
