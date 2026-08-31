@@ -16,7 +16,7 @@ const downloadButton = document.getElementById("downloadButton");
 
 
 // API address
-const API_URL = "https://strength-bean-barbie-idle.trycloudflare.com/";
+const API_URL = "https://strength-bean-barbie-idle.trycloudflare.com";
 
 
 // Store selected file
