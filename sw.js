@@ -1,4 +1,4 @@
-const CACHE_NAME = "j-lab-v1";
+const CACHE_NAME = "j-lab-v2";const CACHE_NAME = "j-lab-v1";
 
 const FILES_TO_CACHE = [
     "./",
