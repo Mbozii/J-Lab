@@ -16,7 +16,7 @@ const downloadButton = document.getElementById("downloadButton");
 
 
 // API address
-const API_URL = "https://leaf-arrow-memorabilia-exclude.trycloudflare.com/separate";
+const API_URL = "https://strength-bean-barbie-idle.trycloudflare.com/";
 
 
 // Store selected file
