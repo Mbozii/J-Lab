@@ -16,7 +16,7 @@ const downloadButton = document.getElementById("downloadButton");
 
 
 // API address
-const API_URL = "https://leaf-arrow-memorabilia-exclude.trycloudflare.com";
+const API_URL = "https://leaf-arrow-memorabilia-exclude.trycloudflare.com/separate";
 
 
 // Store selected file
