@@ -16,7 +16,7 @@ const downloadButton = document.getElementById("downloadButton");
 
 
 // API address
-const API_URL = "https://florida-compatible-frozen-cbs.trycloudflare.com";
+const API_URL = "http://132.145.61.200:8000";
 
 
 // Store selected file
