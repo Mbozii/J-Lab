@@ -16,7 +16,7 @@ const downloadButton = document.getElementById("downloadButton");
 
 
 // API address
-const API_URL = "http://132.145.61.200:8000";
+const API_URL = "https://offer-road-recipe-automatic.trycloudflare.com";
 
 
 // Store selected file
